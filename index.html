@@ -76,7 +76,10 @@
 	color: antiquewhite;
 }
 
-.portfolio-links p {
+.portfolio-links p,
+.font4 {
+	font-family: 'Black Han Sans', sans-serif;
+	color: rgb(12, 12, 11);
 	font-size: 14px;
 	line-height: 1.8;
 }
@@ -95,10 +98,13 @@
 		<div class="d-flex flex-column">
 
 			<div class="profile">
-				<img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
 				<h1 class="text-light">
 					<a href="index.html">KIM SE HYUN</a>
 				</h1>
+				<img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+				<div class="font4">
+					안녕하세요, 김세현입니다. 신속과 정확도를 향상 시키기 위해 한 줄의 코드라도 서비스의 가치를 담기 위해 노력하겠습니다.
+				</div>
 				<div class="social-links mt-3 text-center">
 					<a href="#" class="github"><i class="bx bxl-github"></i></a> 
 					<a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> 
@@ -155,11 +161,11 @@
 					<p id="font1" style="margin-top: 8px;">Web Developer / Back-End
 						Developer / Front-End Developer</p>
 					<p id="font1">
-						원동력과 열정으로 작업에 임하는 결과 중심적인 준비된 개발자입니다.<br /> 문제 해결과 협업을 통해 솔루션을
-						창출하는 데 자신감을 가지고 있습니다.<br /> 주어진 도전을 받아들이고 성장하는 것을 즐기는 개발자로서, 팀의
-						성공에 기여하고자 합니다.<br /> 사용자의 니즈를 위해 분석하여 편의와 만족도를 충족시키기 위한 개선 방향을
-						도출해냅니다.<br /> 신속, 정확도를 향상 시키기 위해 한 줄의 코드라도 서비스의 가치를 담기 위해 노력하겠습니다.<br />
-						사용자가 필요로 하는 서비스가 무엇인지 끊임없이 고민하여<br /> 사용자 확보를 위해 결과로 도출하겠습니다.<br />
+						원동력과 열정으로 작업에 임하는 결과 중심적인 준비된 개발자입니다.<br /> 
+						문제 해결과 협업을 통해 솔루션을 창출하는 데 자신감을 가지고 있습니다.<br /> 
+						주어진 도전을 받아들이고 성장하는 것을 즐기는 개발자로서, 팀의 성공에 기여하고자 합니다.<br /> 
+						사용자의 니즈를 위해 분석하여 편의와 만족도를 충족시키기 위한 개선 방향을 도출해냅니다.<br /> 
+						사용자가 필요로 하는 서비스가 무엇인지 끊임없이 고민하여 사용자 확보를 위해 결과로 도출하겠습니다.<br />
 						중간에 포기하지 않고 끝까지 같이 갈 수 있는 개발자가 되겠습니다.
 					</p>
 					<div class="row">
@@ -350,15 +356,15 @@
 							<hr>
 							<p>프로젝트 방식 : Spring MVC Legacy</p>
 							<p>프로젝트 도구 : Eclipse, Oracle, Github, Maven, Apache Tomcat 9</p>
-							<p>사용 언어 : JSP, Java, SQL, JavaScript, MyBatis, JSTL, Ajax, bootstrap</p>
+							<p>사용 언어 : JSP, Java, SQL, JavaScript, MyBatis, JSTL, Ajax, bootstrap, REST API</p>
 							<hr>
 							<p>
 								[프로젝트 설명]<br> 
-								Spring Framework를 사용하여 처음으로 팀 프로젝트로 진행한 LMS프로젝트 입니다.<br> 
-								학습관리 시스템으로써 모든걸 총괄하는 운영자, 강좌를 진행하는 강사, 강좌를 수강하는 학생이 존재하며 운영자의 가입만을 승인하는 관리자가 존재합니다.<br> 
-								기본적인 기능으로는 수강, 출석, 과제, 최종평가 등의 학습을 관리할 수 있는 기능이 존재하며<br> 
-								부가적인 기능으로는 마지막 로그인 날짜에서 6개월간 로그인 기록이 존재하지 않는 유저를 휴면처리하는 기능을 스프링의 스케줄러 에노테이션으로 구현하였습니다.<br> 
-								또한 비밀번호를 잃어버렸을 경우 이메일로 임시 비밀번호를 발급해주는 기능을 위해 Naver SMTP를 사용하였습니다.
+								Spring Framework를 사용하여 팀 프로젝트로 진행한 문화 예매 프로젝트 입니다.<br> 
+								예매 시스템으로써 모든걸 총괄하는 운영자, 날짜 및 시간으로 선택이 가능한 콘서트/전시회/영화를 예매하는 사용자가 존재합니다.<br> 
+								기본적인 기능으로는 회원가입, 로그인, 비밀번호 찾기, 마이페이지, CS 등 기능이 존재하며<br> 
+								부가적인 기능으로는 회원가입 시 네이버, 카카오톡 소셜 로그인으로 구현했습니다.<br>
+								해당 프로젝트를 기획할 당시 하나의 콘텐츠가 아닌 ‘배달의 민족’, ‘예스24 티켓’ 페이지 같은 다양한 콘텐츠를 예매할 수 있는 사이트를 구현했습니다.
 							</p>
 							<hr>
 							<p>
@@ -525,7 +531,6 @@
 		<!-- ======= Services Section ======= -->
 		<section id="services" class="services">
 			<div class="container">
-
 				<div class="section-title">
 					<h2>Skill</h2>
 					<h5>현재까지 배우고 사용 해봤던 기술입니다.</h5>
@@ -545,8 +550,7 @@
 						</p>
 					</div>
 					<!--프론트엔드-->
-					<div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up"
-						data-aos-delay="200">
+					<div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
 						<div class="icon">
 							<i class="icofont-earth"></i>
 						</div>
@@ -557,8 +561,7 @@
 							HTML5<br /> CSS<br /> JavaScript(jquery)<br /> BootStrap<br />
 						</p>
 					</div>
-					<div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up"
-						data-aos-delay="300">
+					<div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
 						<div class="icon">
 							<i class="icofont-love"></i>
 						</div>
@@ -569,8 +572,7 @@
 							Spring<br /> JSP/JSTL<br /> GIT
 						</p>
 					</div>
-					<div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up"
-						data-aos-delay="400">
+					<div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
 						<div class="icon">
 							<i class="icofont-king-monster"></i>
 						</div>
@@ -581,7 +583,7 @@
 							Oracle<br /> MsSql<br /> MyBatis
 						</p>
 					</div>
-					<div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up"
+					<!-- <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up"
 						data-aos-delay="400">
 						<div class="icon">
 							<i class="icofont-clouds"></i>
@@ -592,9 +594,8 @@
 						<p class="description">
 							Amazon Web Services<br /> Ubuntu
 						</p>
-					</div>
-					<div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up"
-						data-aos-delay="400">
+					</div> -->
+					<div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
 						<div class="icon">
 							<i class="icofont-stock-mobile"></i>
 						</div>
@@ -602,8 +603,7 @@
 							<a href="">Tool</a>
 						</h4>
 						<p class="description">
-							Eclipse<br /> STS(Spring-tool-suite)<br /> Git<br /> Github<br />
-							Maven
+							Eclipse<br /> STS(Spring-tool-suite)<br /> Git<br /> Github<br /> Maven<br /> REST API
 						</p>
 					</div>
 				</div>
