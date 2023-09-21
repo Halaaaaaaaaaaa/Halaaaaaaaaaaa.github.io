@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  padding-top: 30px;
+  padding-top: 23px;
 }
 
 .nav-menu * {
@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   color: #a8a9b4;
   padding: 12px 30px;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   transition: 0.3s;
   font-size: 15px;
 }
@@ -1077,7 +1077,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  padding: 15px;
+  padding: 5px;
   color: #f4f6fd;
   font-size: 14px;
   position: fixed;
@@ -1094,7 +1094,6 @@ section {
 }
 
 #footer .credits {
-  padding-top: 5px;
   text-align: center;
   font-size: 12px;
   color: #eaebf0;
