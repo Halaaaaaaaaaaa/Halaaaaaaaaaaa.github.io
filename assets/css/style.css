@@ -495,7 +495,7 @@ section {
   border: 2px solid #1f5297;
 }
 
-.resume-head {
+/**.resume-head {
 	display: flex;
 	
 }
@@ -509,7 +509,7 @@ section {
     border-radius: 10px;
     background-color: #149ddd;
     color: #fff;
-}
+}**/
 
 /*--------------------------------------------------------------
 # Portfolio
