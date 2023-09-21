@@ -495,21 +495,21 @@ section {
   border: 2px solid #1f5297;
 }
 
-/**.resume-head {
+.resume-head {
 	display: flex;
-	
+	justify-content: space-between;
 }
 
 .resume_pdf, .portfolio_pdf {
 	font-weight: bold;
-    padding: 0.375rem 1rem;
-    height: 2.5rem;
+    padding: auto 1rem;
+    height: 2rem;
     font-size: 1rem;
     outline: none;
     border-radius: 10px;
     background-color: #149ddd;
     color: #fff;
-}**/
+}
 
 /*--------------------------------------------------------------
 # Portfolio
