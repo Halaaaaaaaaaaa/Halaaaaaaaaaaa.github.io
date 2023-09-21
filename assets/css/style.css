@@ -495,7 +495,12 @@ section {
   border: 2px solid #1f5297;
 }
 
-.resume, .portfolio {
+.resume-head {
+	display: flex;
+	
+}
+
+.resume_pdf, .portfolio_pdf {
 	font-weight: bold;
     padding: 0.375rem 1rem;
     height: 2.5rem;
