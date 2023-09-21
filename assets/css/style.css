@@ -502,13 +502,14 @@ section {
 
 .resume_pdf, .portfolio_pdf {
 	font-weight: bold;
-    padding: auto 1rem;
+    padding: 0.1rem 1rem;
     height: 2rem;
     font-size: 1rem;
     outline: none;
     border-radius: 10px;
     background-color: #149ddd;
     color: #fff;
+    border-color: #149ddd;
 }
 
 /*--------------------------------------------------------------
