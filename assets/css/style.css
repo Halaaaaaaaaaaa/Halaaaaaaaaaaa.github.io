@@ -607,7 +607,7 @@ section {
 .banner_img:after {
   content:'';
   position: absolute;
-  top: -13px;
+  top: -14px;
   right: 0;
   bottom: 0;
   left: 0;
