@@ -612,12 +612,13 @@ section {
   left: 0;
   background: rgba(0, 0, 0, 0.3);
   z-index: 10;
+  height: 300px;
 }
 .banner_img {
   overflow: hidden;
 }
 .banner_img:hover img{
-  transform: scale(1.2);
+  transform: scale(1);
   transition: 1s;
 }
 .hover_text {
